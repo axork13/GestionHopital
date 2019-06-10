@@ -77,6 +77,19 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="Models\DTO\BaseDTO.cs" />
+    <Compile Include="Models\DTO\Consultation.cs" />
+    <Compile Include="Models\DTO\Facture.cs" />
+    <Compile Include="Models\DTO\Hospitalisation.cs" />
+    <Compile Include="Models\DTO\Medecin.cs" />
+    <Compile Include="Models\DTO\Patient.cs" />
+    <Compile Include="Models\DTO\Prescription.cs" />
+    <Compile Include="Models\DTO\Rendez-vous.cs" />
+    <Compile Include="Models\DTO\Traitements\Chirurgie.cs" />
+    <Compile Include="Models\DTO\Traitements\Examen_biologique.cs" />
+    <Compile Include="Models\DTO\Traitements\Examen_radiologique.cs" />
+    <Compile Include="Models\DTO\Traitements\Traitement.cs" />
+    <Compile Include="Models\DTO\Type_consultation.cs" />
     <Compile Include="Tools\DataContext.cs" />
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
@@ -118,5 +131,6 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
