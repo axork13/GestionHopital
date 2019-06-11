@@ -89,6 +89,7 @@
     <Compile Include="Models\DAO\Traitements\Examen_biologiqueDAO.cs" />
     <Compile Include="Models\DAO\Traitements\Examen_radiologiqueDAO.cs" />
     <Compile Include="Models\DAO\Traitements\TraitementDAO.cs" />
+    <Compile Include="Models\DAO\Type_consultationDAO.cs" />
     <Compile Include="Models\DTO\BaseDTO.cs" />
     <Compile Include="Models\DTO\Consultation.cs" />
     <Compile Include="Models\DTO\Facture.cs" />

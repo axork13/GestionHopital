@@ -26,6 +26,11 @@ namespace GestionHopital.Models.DTO
             this.consultation_id = consultation_id;
         }
 
+        public int Id_type_consultation { get => id_type_consultation; set => id_type_consultation = value; }
+        public string Type_consultation { get => type_consultation; set => type_consultation = value; }
+        public decimal Prix_consultation { get => prix_consultation; set => prix_consultation = value; }
+        public int Consultation_id { get => consultation_id; set => consultation_id = value; }
+
         public override bool CheckData()
         {
             return (type_consultation == "" || type_consultation == null || prix_consultation < 0) ? false : true; 
