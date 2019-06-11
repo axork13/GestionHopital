@@ -41,5 +41,6 @@ namespace GestionHopital.Tools
         public DbSet<Examen_radiologique> Examen_radiologiques { get; set; }
         public DbSet<Facture> Factures { get; set; }
         public DbSet<Hospitalisation> Hospitalisations { get; set; } 
+        public DbSet<Medecin> Medecins { get; set; }
     }
 }

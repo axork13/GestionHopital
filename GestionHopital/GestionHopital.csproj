@@ -81,6 +81,8 @@
     <Compile Include="Models\DAO\FactureDAO.cs" />
     <Compile Include="Models\DAO\HospitalisationDAO.cs" />
     <Compile Include="Models\DAO\IDAO.cs" />
+    <Compile Include="Models\DAO\MedecinDAO.cs" />
+    <Compile Include="Models\DAO\PatientDAO.cs" />
     <Compile Include="Models\DAO\Traitements\ChirurgieDAO.cs" />
     <Compile Include="Models\DAO\Traitements\Examen_biologiqueDAO.cs" />
     <Compile Include="Models\DAO\Traitements\Examen_radiologiqueDAO.cs" />
