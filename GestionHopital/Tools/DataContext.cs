@@ -1,4 +1,6 @@
-﻿using GestionHopital.Models.DTO;
+﻿using GestionHopital.Models.DAO.Traitements;
+using GestionHopital.Models.DTO;
+using GestionHopital.Models.DTO.Traitements;
 using System;
 using System.Collections.Generic;
 using System.Data.Entity;
@@ -33,5 +35,12 @@ namespace GestionHopital.Tools
         }
 
         public DbSet<Consultation> Consultations { get; set; }
+        public DbSet<Traitement> Traitements { get; set; }
+        public DbSet<Chirurgie> Chirurgies { get; set; }
+        public DbSet<Examen_biologique> Examen_biologiques { get; set; }
+        public DbSet<Examen_radiologique> Examen_radiologiques { get; set; }
+
+
+
     }
 }
