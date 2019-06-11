@@ -44,5 +44,6 @@ namespace GestionHopital.Tools
         public DbSet<Medecin> Medecins { get; set; }
         public DbSet<Patient> Patients { get; set; }
         public DbSet<Prescription> Prescriptions { get; set; }
+        public DbSet<Rendez_vous> Rendez_vouss { get; set; }
     }
 }
