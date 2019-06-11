@@ -1,4 +1,5 @@
-﻿using System;
+﻿using GestionHopital.Models.DTO;
+using System;
 using System.Collections.Generic;
 using System.Data.Entity;
 using System.Linq;
@@ -30,5 +31,7 @@ namespace GestionHopital.Tools
         {
 
         }
+
+        public DbSet<Consultation> Consultations { get; set; }
     }
 }
