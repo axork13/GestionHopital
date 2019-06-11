@@ -32,6 +32,14 @@ namespace GestionHopital.Models.DTO
             this.medecin_id = medecin_id;
         }
 
+        public int Id_prescription { get => id_prescription; set => id_prescription = value; }
+        public DateTime Date_prescription { get => date_prescription; set => date_prescription = value; }
+        public string Nom_patient { get => nom_patient; set => nom_patient = value; }
+        public string Prenom_patient { get => prenom_patient; set => prenom_patient = value; }
+        public string Note { get => note; set => note = value; }
+        public int Consultation_id { get => consultation_id; set => consultation_id = value; }
+        public int Medecin_id { get => medecin_id; set => medecin_id = value; }
+
         public override bool CheckData()
         {
             return (date_prescription == null || nom_patient == "" || nom_patient == null || prenom_patient == "" || prenom_patient == null) ? false : true;
