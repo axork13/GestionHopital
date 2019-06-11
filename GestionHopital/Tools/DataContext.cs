@@ -42,5 +42,6 @@ namespace GestionHopital.Tools
         public DbSet<Facture> Factures { get; set; }
         public DbSet<Hospitalisation> Hospitalisations { get; set; } 
         public DbSet<Medecin> Medecins { get; set; }
+        public DbSet<Patient> Patients { get; set; }
     }
 }

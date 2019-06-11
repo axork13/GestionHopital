@@ -54,6 +54,25 @@ namespace GestionHopital.Models.DTO
             this.traitement_id = traitement_id;
         }
 
+        public int Id_patient { get => id_patient; set => id_patient = value; }
+        public string Nom_patient { get => nom_patient; set => nom_patient = value; }
+        public string Prenom_patient { get => prenom_patient; set => prenom_patient = value; }
+        public DateTime Date_naissance { get => date_naissance; set => date_naissance = value; }
+        public string Sexe { get => sexe; set => sexe = value; }
+        public string Adresse { get => adresse; set => adresse = value; }
+        public string Situation_familliale { get => situation_familliale; set => situation_familliale = value; }
+        public string Assurance_medicale { get => assurance_medicale; set => assurance_medicale = value; }
+        public string Code_assurance { get => code_assurance; set => code_assurance = value; }
+        public string Tel { get => tel; set => tel = value; }
+        public string Nom_pere { get => nom_pere; set => nom_pere = value; }
+        public string Nom_mere { get => nom_mere; set => nom_mere = value; }
+        public string NomP_a_prevenir { get => nomP_a_prevenir; set => nomP_a_prevenir = value; }
+        public string TelP_a_prevenir { get => telP_a_prevenir; set => telP_a_prevenir = value; }
+        public int Rdv_code { get => rdv_code; set => rdv_code = value; }
+        public int Consultation_id { get => consultation_id; set => consultation_id = value; }
+        public int Hospitalisation_id { get => hospitalisation_id; set => hospitalisation_id = value; }
+        public int Traitement_id { get => traitement_id; set => traitement_id = value; }
+
         public override bool CheckData()
         {
             return (nom_patient == null || nom_patient == "" || prenom_patient == null || prenom_patient == "" || date_naissance == null) ? false : true;
